@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --color-primary: #ffffff;
+    --color-quaternary: #0a69e6;
+    --color-quinary: #43454773;
+    --color-senary: #00000059;
+
+    --color-green-primary: #375964;
+    --color-green-secondary: #00dfc0;
+    --color-green-tertiary: #20e570;
+
+    --color-primary-opacite: #ffffff65;
+    --color-secondary-opacite: rgba(240, 248, 255, 0.5);
+}

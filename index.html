@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/styles/index.css" />
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="modal">
+            <div class="recovery">
+                <h2>Recuperar senha</h2>
+                <button onclick="closeModal()">X</button>
+
+                <p>Digite seu e-mail para recuperar a senha.</p>
+                <p>Você receberar um e-mail com sua nova senha.</p>
+
+                <form action="">
+                    <input
+                        class="confirmarSenha"
+                        type="email"
+                        name="email-forget-password"
+                        id="email-forget-password"
+                        placeholder="E-MAIL"
+                        required=""
+                    />
+                    <button class="button enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <main>
+            <aside>
+                <h1><span>DEBUGA</span><span>DEV</span></h1>
+                <p>
+                    <span>O mundo é dos</span>
+                    <span>desenvolvedores!</span>
+                </p>
+                <img src="./src/img/3426526.png" alt="dev_logo" />
+            </aside>
+
+            <form>
+                <div>
+                    <label for="email">
+                        <img src="./src/img/user.png" />
+                    </label>
+                    <input
+                        placeholder="Digite seu e-mail"
+                        required
+                        autocapitalize="off"
+                        name="email"
+                        type="text"
+                    />
+                </div>
+                <div>
+                    <label for="password">
+                        <img src="./src/img/password.png" />
+                    </label>
+                    <input
+                        placeholder="* * * * * *"
+                        type="password"
+                        name="password"
+                        id="password"
+                        required
+                        autocapitalize="off"
+                    />
+                </div>
+                <button type="button">Entrar</button>
+                <button type="button" id="forget" onclick="forgetPassword()">
+                    Esqueci a senha
+                </button>
+            </form>
+        </main>
+        <div class="circleBackGround">
+            <div class="circle circle_1"></div>
+            <div class="circle circle_2"></div>
+            <div class="circle circle_3"></div>
+        </div>
+        <script src="./src/scripts/index.js"></script>
+    </body>
+</html>
